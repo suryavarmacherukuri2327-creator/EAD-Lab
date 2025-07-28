@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <title>Introduction to MERN stack</title>
+    <h1>Welcome to the MERN Stack</h1>
+    <p>MERN is a pre-built technology stack based on JavaScript technologies . MERN stands for MongoDB, Express, React, and Node, after the four key technologies that make up the stack. MongoDB — document database. Express(.js) — Node.js web framework. React(.js) — a client-side JavaScript framework.</p>
+    <ol>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+    </ol>
+    <img src="https://graffersid.com/wp-content/uploads/2023/08/MERN-Stack-scaled.webp" alt="MERN Stack" width="500" height="300">
+    <hyperlink href="https://www.mongodb.com/mern-stack" target="_blank">Learn more about MERN Stack</a>

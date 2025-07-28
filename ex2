@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>IT-1 Time Table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Subject</th>
+    <th>Timing</th>
+  </tr>
+  <tr>
+    <td>EAD Lab(B1)/CN Lab(B2)</td>
+    <td>9:10-10:10</td>
+  </tr>
+  <tr>
+    <td>EAD Lab(B1)/CN Lab(B2)</td>
+    <td>10:10-11:10</td>
+  </tr>
+  <tr>
+    <td>FLAT</td>
+    <td>11:15-12:15</td>
+  </tr>
+  <tr>
+    <td>Lunch</td>
+    <td>12:15-1:00</td>
+  </tr>
+  <tr>
+    <td>ML</td>
+    <td>1:00-2:00</td>
+  </tr>
+  <tr>
+    <td>PE-2</td>
+    <td>2:00-3:00</td>
+  </tr>
+  <tr>
+    <td>SE</td>
+    <td>3:05-4:05</td>
+  </tr>
+</table>
+
+<p>--------END-----------</p>
+
+</body>
+</html>
