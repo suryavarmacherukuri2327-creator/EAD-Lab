@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+  }
+
+  td.vertical-text {
+    writing-mode: vertical-lr;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  p {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<h2>IT-1 Weekly Time Table</h2>
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>9:10-10:10</th>
+    <th>10:10-11:10</th>
+    <th>11:15-12:15</th>
+    <th>12:15-1:00</th>
+    <th>1:00-2:00</th>
+    <th>2:00-3:00</th>
+    <th>3:05-4:05</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td colspan="2">EAD Lab(B1)/CN Lab(B2)</td>
+    <td>FLAT</td>
+    <td rowspan="5" class="vertical-text">LUNCH</td>
+    <td>ML</td>
+    <td>PE-2</td>
+    <td>SE</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>CN</td>
+    <td>FLAT</td>
+    <td>UHV</td>
+    <td>ML</td>
+    <td>PE-2</td>
+    <td>SE</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+    <td>UHV</td>
+    <td>ML</td>
+    <td>PE-2</td>
+    <td>SE</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td colspan="2">EAD Lab(B1)/CN Lab(B2)</td>
+    <td>FLAT</td>
+    <td>ML</td>
+    <td>PE-2</td>
+    <td>SE</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td colspan="2">EAD</td>
+    <td>FLAT</td>
+    <td>ML</td>
+    <td>PE-2</td>
+    <td>SE</td>
+  </tr>
+</table>
+
+</body>
+</html>
